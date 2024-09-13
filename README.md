@@ -54,26 +54,7 @@ Vous verrez la progression du téléversement, puis votre code s’exécutera im
 
 Code d’exemple :
 
-
-
-#include <DigiKeyboard.h>
-
-void setup() {
-   DigiKeyboard.delay(3000); // Attendre 3 secondes
-
-   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // Ouvrir une fenêtre d'exécution Windows
-   DigiKeyboard.delay(500); // Attendre 0,5 seconde
-   DigiKeyboard.print("c;d"); // Écrire "cmd"
-   DigiKeyboard.delay(500); // Attendre 0,5 seconde
-   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-
-
+![alt text](code.png)
 
 
 Conclusion :
