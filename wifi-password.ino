@@ -1,3 +1,5 @@
+! CODE A USAGE EDUCATIF SEULEMENT !
+
 #include "DigiKeyboard.h"
 
 void setup() {
